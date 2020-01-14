@@ -1,5 +1,6 @@
 package arrayExample;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Array {
@@ -28,6 +29,9 @@ public class Array {
         for (int i = 0; i < myIntArray3.length; i++) {
             System.out.print(myIntArray3[i]);
         }
+        //printing array version 3
+        System.out.println();
+        System.out.println(Arrays.toString(myIntArray3));
         System.out.println();
         System.out.println("---------------");
 

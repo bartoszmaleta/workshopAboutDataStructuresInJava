@@ -20,12 +20,15 @@ public class Main {
             case 0:
                 printMenu();
                 break;
+                
             case 1:
                 groceryList.printGroceryList();
                 break;
+
             case 2:
                 addItem();
                 break;
+
             case 3:
                 // removeItem();
                 break;

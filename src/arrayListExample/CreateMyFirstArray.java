@@ -51,10 +51,12 @@ public class CreateMyFirstArray {
         names.add("John");
         names.add("Alice");
         names.add("Bob");
-        
+
         // Find the index of the first occurrence of an element in an ArrayList
         System.out.println("indexOf \"Steve\": " + names.indexOf("Steve"));
         System.out.println("indexOf \"Mark\": " + names.indexOf("Mark"));
 
+        // OPTION TO CONVERT ARRAYLIST:
+        String[] namesArray = names.toArray(new String[names.size()]);
     }
 }

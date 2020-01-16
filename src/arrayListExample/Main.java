@@ -1,6 +1,6 @@
 package arrayListExample;
 
-import java.util.Scanner;
+import java.util.Scanner    ;
 
 public class Main {
     private static Scanner scanner = new Scanner(System.in);
@@ -14,7 +14,7 @@ public class Main {
             printMenu();
             System.out.println("Enter your choice");
             choice = scanner.nextInt();
-            scanner.nextLine();
+            scanner.nextLine(); 
 
             switch (choice) {
             case 0:
@@ -54,11 +54,11 @@ public class Main {
         groceryList.addGroceryItem(itemToAdd);
     }
 
-    // private static void removeItem() {
-    //     System.out.println("Enter item number: ");
-    //     int itemNumber = scanner.nextInt();
-    //     scanner.nextLine();
-    //     groceryList.removeGroceryItem(itemNumber - 1);
-    // }
+    private static void removeItem() {
+        System.out.println("Enter item number: ");
+        int itemNumber = scanner.nextInt();
+        scanner.nextLine();
+        groceryList.removeGroceryItem(itemNumber - 1);
+    }
 
 }
